@@ -1,0 +1,65 @@
+strcmp (string 1, string 2) return -1 0 1  0 if string is same
+strncmp(s1,s2,4) cimpare s2 to s1 only for 4 charcters
+
+ascii values A 65 a 97
+
+
+s.substr(starting index from where u want to extract , no of character u want to extract)
+
+stringname.erase(from which index , no of characters);
+
+atoi convert string into integer 
+
+
+memset (array name, with what value u want ot initialize , how manay bytes )
+to intialize an array woth a vlaue
+
+
+
+int main()
+{
+	string bucky;
+	cout<<"enter:";
+	//cin>>bucky;
+	///cout<<bucky;
+	 getline(cin,bucky); //to read the entire string
+	 cout<<bucky;
+	 substr(1,4);
+}
+	// substr(from where you want to string to start,hpw many characters )helps us craete smaller string of larger string
+//s.length()
+//s.assign(x) cpoying string s=x; other way
+// string x("hello"); x=hello
+//s.at(index no) to get partiular character -- string is an array of character
+// swap function s1.swap(s2)  
+//}
+/*
+int main()
+{
+string one("apples");
+string two("beans");
+cout<<one << two <<endl;
+two.swap(one);	// highlight
+cout<<one << two <<endl;
+}
+*/
+/*
+int main()
+{string x("hello ello llo");
+cout<<x.rfind("o");//highlight 
+// if onlt used find it searches from left to right
+// rfind searches from rught to left
+}*/
+/*
+int main()
+{
+	string s1("hi i am aparna and i love myself");
+	cout<<s1<<endl;
+  //  s1.replace(9,6,"jenna hummm");//hightlight s1.replace(from which index,how many character to replace,what text to replace);
+//	s1.erase(14);// highlight s1.erase(from where to erase);
+  //  s1.insert(15,"mane ");// s1.insert("from were to insert,"what to insert");
+	cout<<s1<<endl;
+
+}
+
+
